@@ -1,0 +1,117 @@
+2023-09-04 18:43:14 [main] INFO  : Starting SpringBatchProcess using Java 20.0.2 with PID 7340 (D:\java-instructor\spring.batch\target\classes started by 1000021528 in D:\java-instructor\spring.batch)
+2023-09-04 18:43:14 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-09-04 18:43:15 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-04 18:43:15 [main] INFO  : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+2023-09-04 18:43:16 [main] INFO  : Tomcat initialized with port(s): 8091 (http)
+2023-09-04 18:43:16 [main] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2023-09-04 18:43:16 [main] INFO  : Starting service [Tomcat]
+2023-09-04 18:43:16 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-04 18:43:16 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-09-04 18:43:16 [main] INFO  : Root WebApplicationContext: initialization completed in 1615 ms
+2023-09-04 18:43:16 [main] INFO  : HikariPool-1 - Starting...
+2023-09-04 18:43:16 [main] INFO  : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-09-04 18:43:16 [main] INFO  : HikariPool-1 - Start completed.
+2023-09-04 18:43:16 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-04 18:43:16 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-09-04 18:43:17 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-04 18:43:17 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-04 18:43:17 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-04 18:43:18 [main] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-04 18:43:18 [main] DEBUG : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-04 18:43:18 [main] TRACE : 
+	c.j.i.s.b.c.TriggerJobController:
+	{POST [/jobs/importCustomers]}: importCSVToDBJob()
+2023-09-04 18:43:18 [main] TRACE : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-09-04 18:43:18 [main] DEBUG : 3 mappings in 'requestMappingHandlerMapping'
+2023-09-04 18:43:18 [main] DEBUG : Detected 0 mappings in 'beanNameHandlerMapping'
+2023-09-04 18:43:18 [main] TRACE : 0 RouterFunction(s) in 'routerFunctionMapping'
+2023-09-04 18:43:18 [main] TRACE : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-09-04 18:43:18 [main] TRACE : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-04 18:43:18 [main] DEBUG : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-09-04 18:43:18 [main] DEBUG : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-04 18:43:18 [main] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2023-09-04 18:43:18 [main] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2023-09-04 18:43:18 [main] INFO  : Started SpringBatchProcess in 4.49 seconds (process running for 4.876)
+2023-09-04 18:44:36 [main] INFO  : Starting SpringBatchProcess using Java 20.0.2 with PID 10896 (D:\java-instructor\spring.batch\target\classes started by 1000021528 in D:\java-instructor\spring.batch)
+2023-09-04 18:44:36 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-09-04 18:44:36 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-04 18:44:36 [main] INFO  : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2023-09-04 18:44:37 [main] INFO  : Tomcat initialized with port(s): 8091 (http)
+2023-09-04 18:44:37 [main] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2023-09-04 18:44:37 [main] INFO  : Starting service [Tomcat]
+2023-09-04 18:44:37 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-04 18:44:37 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-09-04 18:44:37 [main] INFO  : Root WebApplicationContext: initialization completed in 1445 ms
+2023-09-04 18:44:37 [main] INFO  : HikariPool-1 - Starting...
+2023-09-04 18:44:38 [main] INFO  : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-09-04 18:44:38 [main] INFO  : HikariPool-1 - Start completed.
+2023-09-04 18:44:38 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-04 18:44:38 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-09-04 18:44:38 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-04 18:44:39 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-04 18:44:39 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-04 18:44:39 [main] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-04 18:44:39 [main] DEBUG : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-09-04 18:44:39 [main] TRACE : 
+	c.j.i.s.b.c.TriggerJobController:
+	{POST [/jobs/importCustomers]}: importCSVToDBJob()
+2023-09-04 18:44:39 [main] TRACE : 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-09-04 18:44:39 [main] DEBUG : 3 mappings in 'requestMappingHandlerMapping'
+2023-09-04 18:44:39 [main] DEBUG : Detected 0 mappings in 'beanNameHandlerMapping'
+2023-09-04 18:44:39 [main] TRACE : 0 RouterFunction(s) in 'routerFunctionMapping'
+2023-09-04 18:44:39 [main] TRACE : Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-09-04 18:44:39 [main] TRACE : Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-09-04 18:44:39 [main] DEBUG : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-09-04 18:44:39 [main] DEBUG : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-09-04 18:44:39 [main] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2023-09-04 18:44:40 [main] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2023-09-04 18:44:40 [main] INFO  : Started SpringBatchProcess in 4.216 seconds (process running for 4.596)
+2023-09-04 18:45:08 [http-nio-8091-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-04 18:45:08 [http-nio-8091-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2023-09-04 18:45:08 [http-nio-8091-exec-1] TRACE : Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@6b6f73d
+2023-09-04 18:45:08 [http-nio-8091-exec-1] TRACE : Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@f472245
+2023-09-04 18:45:08 [http-nio-8091-exec-1] TRACE : Detected org.springframework.web.servlet.theme.FixedThemeResolver@a20898c
+2023-09-04 18:45:08 [http-nio-8091-exec-1] TRACE : Detected DefaultRequestToViewNameTranslator
+2023-09-04 18:45:08 [http-nio-8091-exec-1] TRACE : Detected SessionFlashMapManager
+2023-09-04 18:45:08 [http-nio-8091-exec-1] DEBUG : enableLoggingRequestDetails='true': request parameters and headers will be shown which may lead to unsafe logging of potentially sensitive data
+2023-09-04 18:45:08 [http-nio-8091-exec-1] INFO  : Completed initialization in 2 ms
+2023-09-04 18:45:08 [http-nio-8091-exec-1] TRACE : POST "/jobs/importCustomers", parameters={}, headers={user-agent:[PostmanRuntime/7.28.2], accept:[*/*], postman-token:[e5253191-0fea-4492-b95d-7ac8e148cc7c], host:[localhost:8091], accept-encoding:[gzip, deflate, br], connection:[keep-alive], cookie:[JSESSIONID=6B4B2C87978642C2BB9232A49DD0EC14], content-length:[0]} in DispatcherServlet 'dispatcherServlet'
+2023-09-04 18:45:08 [http-nio-8091-exec-1] TRACE : Mapped to com.java.instructor.spring.batch.controller.TriggerJobController#importCSVToDBJob()
+2023-09-04 18:45:08 [http-nio-8091-exec-1] TRACE : Arguments: []
+2023-09-04 18:45:08 [http-nio-8091-exec-1] INFO  : Job: [FlowJob: [name=importCustomers]] launched with the following parameters: [{'startAt':'{value=1693833308480, type=class java.lang.Long, identifying=true}'}]
+2023-09-04 18:45:08 [http-nio-8091-exec-1] INFO  : Executing step: [csv-step]
+2023-09-04 18:45:09 [http-nio-8091-exec-1] INFO  : Step: [csv-step] executed in 917ms
+2023-09-04 18:45:09 [http-nio-8091-exec-1] INFO  : Job: [FlowJob: [name=importCustomers]] completed with the following parameters: [{'startAt':'{value=1693833308480, type=class java.lang.Long, identifying=true}'}] and the following status: [COMPLETED] in 940ms
+2023-09-04 18:45:09 [http-nio-8091-exec-1] DEBUG : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-09-04 18:45:09 [http-nio-8091-exec-1] DEBUG : Nothing to write: null body
+2023-09-04 18:45:09 [http-nio-8091-exec-1] TRACE : Applying default cacheSeconds=-1
+2023-09-04 18:45:09 [http-nio-8091-exec-1] TRACE : No view rendering, null ModelAndView returned.
+2023-09-04 18:45:09 [http-nio-8091-exec-1] DEBUG : Completed 200 OK, headers={}
+2023-09-04 18:46:20 [main] INFO  : Starting SpringBatchProcess using Java 20.0.2 with PID 19344 (D:\java-instructor\spring.batch\target\classes started by 1000021528 in D:\java-instructor\spring.batch)
+2023-09-04 18:46:20 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2023-09-04 18:46:20 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-04 18:46:20 [main] INFO  : Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+2023-09-04 18:46:21 [main] INFO  : Tomcat initialized with port(s): 8091 (http)
+2023-09-04 18:46:21 [main] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2023-09-04 18:46:21 [main] INFO  : Starting service [Tomcat]
+2023-09-04 18:46:21 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-09-04 18:46:21 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2023-09-04 18:46:21 [main] INFO  : Root WebApplicationContext: initialization completed in 1311 ms
+2023-09-04 18:46:21 [main] INFO  : HikariPool-1 - Starting...
+2023-09-04 18:46:21 [main] INFO  : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-09-04 18:46:21 [main] INFO  : HikariPool-1 - Start completed.
+2023-09-04 18:46:21 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-04 18:46:21 [main] INFO  : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-09-04 18:46:22 [main] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-04 18:46:22 [main] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-04 18:46:22 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-04 18:46:23 [main] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-04 18:46:23 [main] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2023-09-04 18:46:23 [main] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2023-09-04 18:46:23 [main] INFO  : Started SpringBatchProcess in 4.079 seconds (process running for 4.46)
